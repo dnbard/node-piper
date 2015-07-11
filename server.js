@@ -1,6 +1,6 @@
 var request = require('request'),
     express = require('express'),
-    apiUrl = process.env.URL.trim(),
+    apiUrl = process.env.TARGET_URL.trim(),
     port = process.env.PORT || 9000;
 
 if (typeof apiUrl !== 'string' || apiUrl.length === 0){
