@@ -1,7 +1,7 @@
 var request = require('request'),
     express = require('express'),
     apiUrl = process.env.URL.trim(),
-    port = process.ENV.PORT || 9000;
+    port = process.env.PORT || 9000;
 
 if (typeof apiUrl !== 'string' || apiUrl.length === 0){
     throw new Error('Env variable URL must be specified');
