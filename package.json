@@ -1,0 +1,25 @@
+{
+  "name": "node-piper",
+  "version": "1.0.0",
+  "description": "NodeJS Proxy Server",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.1",
+    "request": "^2.58.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnbard/node-piper.git"
+  },
+  "author": "Alex Bardanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dnbard/node-piper/issues"
+  },
+  "homepage": "https://github.com/dnbard/node-piper"
+}
