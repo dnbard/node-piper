@@ -17,7 +17,7 @@ if (filterString){
 function endpointProxy(req, res){
     var url = apiUrl + req.originalUrl;
 
-    if (filter.test(url)){
+    if (filter && filter.test(url)){
         console.log('Blocked - %s', url);
         return res.status(500).send();
     }
