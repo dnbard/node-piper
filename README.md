@@ -1,7 +1,7 @@
 # Node Piper
 NodeJS proxy server
 
-This server will proxy all incoming requests to another server and then return its responses.
+This server will proxy incoming request to another server and then return its response.
 
 ## How to run
 
@@ -26,3 +26,5 @@ In example:
 ```
 TARGET_URL=https://api.example.com node server.js
 ```
+
+* Optionaly: you can define filter RegExp with `FILTER` variable. All requests with url that matches the expression is going to be filtered.
